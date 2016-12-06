@@ -1,0 +1,530 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00        7     0.00     0.00  refCount::append(char)
+  0.00      0.00     0.00        6     0.00     0.00  refCount::ref_delete()
+  0.00      0.00     0.00        5     0.00     0.00  copyString::append(char)
+  0.00      0.00     0.00        5     0.00     0.00  copyString::~copyString()
+  0.00      0.00     0.00        5     0.00     0.00  refCount::_count::_count(unsigned int)
+  0.00      0.00     0.00        5     0.00     0.00  refCount::reserve(int)
+  0.00      0.00     0.00        5     0.00     0.00  refCount::refCount()
+  0.00      0.00     0.00        5     0.00     0.00  refCount::~refCount()
+  0.00      0.00     0.00        5     0.00     0.00  ref_Link::reserve(int)
+  0.00      0.00     0.00        5     0.00     0.00  ref_Link::ref_Link(ref_Link*)
+  0.00      0.00     0.00        5     0.00     0.00  ownString::reserve(int)
+  0.00      0.00     0.00        5     0.00     0.00  copyString::charAt(int) const
+  0.00      0.00     0.00        5     0.00     0.00  refCount::charAt(int) const
+  0.00      0.00     0.00        5     0.00     0.00  ref_Link::charAt(int) const
+  0.00      0.00     0.00        5     0.00     0.00  ref_Link::unique() const
+  0.00      0.00     0.00        5     0.00     0.00  ownString::charAt(int) const
+  0.00      0.00     0.00        4     0.00     0.00  copyString::reserve(int)
+  0.00      0.00     0.00        4     0.00     0.00  copyString::copyString(char*)
+  0.00      0.00     0.00        4     0.00     0.00  ref_Link::append(char)
+  0.00      0.00     0.00        4     0.00     0.00  ownString::append(char)
+  0.00      0.00     0.00        4     0.00     0.00  ownString::ownString(char*)
+  0.00      0.00     0.00        2     0.00     0.00  copyString::length() const
+  0.00      0.00     0.00        2     0.00     0.00  refCount::length() const
+  0.00      0.00     0.00        2     0.00     0.00  ref_Link::length() const
+  0.00      0.00     0.00        2     0.00     0.00  ownString::length() const
+  0.00      0.00     0.00        2     0.00     0.00  ownString::release() const
+  0.00      0.00     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN10copyStringC2ERKS_
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  copyString::print()
+  0.00      0.00     0.00        1     0.00     0.00  copyString::copyString(copyString const&)
+  0.00      0.00     0.00        1     0.00     0.00  Test::ARef_Count()
+  0.00      0.00     0.00        1     0.00     0.00  Test::PRef_Count()
+  0.00      0.00     0.00        1     0.00     0.00  Test::cons_RLink_P()
+  0.00      0.00     0.00        1     0.00     0.00  Test::cons_CPointer()
+  0.00      0.00     0.00        1     0.00     0.00  Test::cons_RCount_P()
+  0.00      0.00     0.00        1     0.00     0.00  Test::cons_OwnPointer()
+  0.00      0.00     0.00        1     0.00     0.00  Test::ACopy()
+  0.00      0.00     0.00        1     0.00     0.00  Test::lCopy()
+  0.00      0.00     0.00        1     0.00     0.00  Test::AOwned()
+  0.00      0.00     0.00        1     0.00     0.00  Test::P_Copy()
+  0.00      0.00     0.00        1     0.00     0.00  Test::lOwned()
+  0.00      0.00     0.00        1     0.00     0.00  Test::lRLink()
+  0.00      0.00     0.00        1     0.00     0.00  Test::P_Owned()
+  0.00      0.00     0.00        1     0.00     0.00  Test::lRCount()
+  0.00      0.00     0.00        1     0.00     0.00  Test::ARef_Link()
+  0.00      0.00     0.00        1     0.00     0.00  Test::PRef_Link()
+  0.00      0.00     0.00        1     0.00     0.00  Test::Test()
+  0.00      0.00     0.00        1     0.00     0.00  refCount::print()
+  0.00      0.00     0.00        1     0.00     0.00  refCount::_fetching(refCount::_count*)
+  0.00      0.00     0.00        1     0.00     0.00  refCount::operator=(refCount const&)
+  0.00      0.00     0.00        1     0.00     0.00  ref_Link::ref_delete()
+  0.00      0.00     0.00        1     0.00     0.00  ref_Link::print()
+  0.00      0.00     0.00        1     0.00     0.00  ref_Link::Fetching(ref_Link const&)
+  0.00      0.00     0.00        1     0.00     0.00  ref_Link::operator=(ref_Link const&)
+  0.00      0.00     0.00        1     0.00     0.00  ownString::print()
+  0.00      0.00     0.00        1     0.00     0.00  ownString::ownString(ownString const&)
+  0.00      0.00     0.00        1     0.00     0.00  ownString::operator=(ownString const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/7           Test::PRef_Count() [39]
+                0.00    0.00       2/7           Test::cons_RCount_P() [42]
+                0.00    0.00       2/7           Test::lRCount() [51]
+                0.00    0.00       2/7           Test::ARef_Count() [38]
+[8]      0.0    0.00    0.00       7         refCount::append(char) [8]
+-----------------------------------------------
+                0.00    0.00       1/6           refCount::operator=(refCount const&) [57]
+                0.00    0.00       5/6           refCount::~refCount() [15]
+[9]      0.0    0.00    0.00       6         refCount::ref_delete() [9]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lCopy() [45]
+                0.00    0.00       1/5           Test::ACopy() [44]
+                0.00    0.00       1/5           Test::P_Copy() [47]
+                0.00    0.00       2/5           Test::cons_CPointer() [41]
+[10]     0.0    0.00    0.00       5         copyString::append(char) [10]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lCopy() [45]
+                0.00    0.00       1/5           Test::ACopy() [44]
+                0.00    0.00       1/5           Test::P_Copy() [47]
+                0.00    0.00       2/5           Test::cons_CPointer() [41]
+[11]     0.0    0.00    0.00       5         copyString::~copyString() [11]
+-----------------------------------------------
+                0.00    0.00       5/5           refCount::reserve(int) [13]
+[12]     0.0    0.00    0.00       5         refCount::_count::_count(unsigned int) [12]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lRCount() [51]
+                0.00    0.00       1/5           Test::ARef_Count() [38]
+                0.00    0.00       1/5           Test::PRef_Count() [39]
+                0.00    0.00       2/5           Test::cons_RCount_P() [42]
+[13]     0.0    0.00    0.00       5         refCount::reserve(int) [13]
+                0.00    0.00       5/5           refCount::_count::_count(unsigned int) [12]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lRCount() [51]
+                0.00    0.00       1/5           Test::ARef_Count() [38]
+                0.00    0.00       1/5           Test::PRef_Count() [39]
+                0.00    0.00       2/5           Test::cons_RCount_P() [42]
+[14]     0.0    0.00    0.00       5         refCount::refCount() [14]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lRCount() [51]
+                0.00    0.00       1/5           Test::ARef_Count() [38]
+                0.00    0.00       1/5           Test::PRef_Count() [39]
+                0.00    0.00       2/5           Test::cons_RCount_P() [42]
+[15]     0.0    0.00    0.00       5         refCount::~refCount() [15]
+                0.00    0.00       5/6           refCount::ref_delete() [9]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lRLink() [49]
+                0.00    0.00       1/5           Test::ARef_Link() [52]
+                0.00    0.00       1/5           Test::PRef_Link() [53]
+                0.00    0.00       2/5           Test::cons_RLink_P() [40]
+[16]     0.0    0.00    0.00       5         ref_Link::reserve(int) [16]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lRLink() [49]
+                0.00    0.00       1/5           Test::ARef_Link() [52]
+                0.00    0.00       1/5           Test::PRef_Link() [53]
+                0.00    0.00       2/5           Test::cons_RLink_P() [40]
+[17]     0.0    0.00    0.00       5         ref_Link::ref_Link(ref_Link*) [17]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::lOwned() [48]
+                0.00    0.00       1/5           Test::AOwned() [46]
+                0.00    0.00       1/5           Test::P_Owned() [50]
+                0.00    0.00       2/5           Test::cons_OwnPointer() [43]
+[18]     0.0    0.00    0.00       5         ownString::reserve(int) [18]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::P_Copy() [47]
+                0.00    0.00       4/5           Test::cons_CPointer() [41]
+[19]     0.0    0.00    0.00       5         copyString::charAt(int) const [19]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::PRef_Count() [39]
+                0.00    0.00       4/5           Test::cons_RCount_P() [42]
+[20]     0.0    0.00    0.00       5         refCount::charAt(int) const [20]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::PRef_Link() [53]
+                0.00    0.00       4/5           Test::cons_RLink_P() [40]
+[21]     0.0    0.00    0.00       5         ref_Link::charAt(int) const [21]
+-----------------------------------------------
+                0.00    0.00       1/5           ref_Link::ref_delete() [58]
+                0.00    0.00       4/5           ref_Link::append(char) [26]
+[22]     0.0    0.00    0.00       5         ref_Link::unique() const [22]
+-----------------------------------------------
+                0.00    0.00       1/5           Test::P_Owned() [50]
+                0.00    0.00       4/5           Test::cons_OwnPointer() [43]
+[23]     0.0    0.00    0.00       5         ownString::charAt(int) const [23]
+-----------------------------------------------
+                0.00    0.00       1/4           Test::cons_CPointer() [41]
+                0.00    0.00       1/4           Test::lCopy() [45]
+                0.00    0.00       1/4           Test::ACopy() [44]
+                0.00    0.00       1/4           Test::P_Copy() [47]
+[24]     0.0    0.00    0.00       4         copyString::reserve(int) [24]
+-----------------------------------------------
+                0.00    0.00       1/4           Test::cons_CPointer() [41]
+                0.00    0.00       1/4           Test::lCopy() [45]
+                0.00    0.00       1/4           Test::ACopy() [44]
+                0.00    0.00       1/4           Test::P_Copy() [47]
+[25]     0.0    0.00    0.00       4         copyString::copyString(char*) [25]
+-----------------------------------------------
+                0.00    0.00       1/4           Test::cons_RLink_P() [40]
+                0.00    0.00       1/4           Test::lRLink() [49]
+                0.00    0.00       1/4           Test::ARef_Link() [52]
+                0.00    0.00       1/4           Test::PRef_Link() [53]
+[26]     0.0    0.00    0.00       4         ref_Link::append(char) [26]
+                0.00    0.00       4/5           ref_Link::unique() const [22]
+-----------------------------------------------
+                0.00    0.00       1/4           Test::cons_OwnPointer() [43]
+                0.00    0.00       1/4           Test::lOwned() [48]
+                0.00    0.00       1/4           Test::AOwned() [46]
+                0.00    0.00       1/4           Test::P_Owned() [50]
+[27]     0.0    0.00    0.00       4         ownString::append(char) [27]
+-----------------------------------------------
+                0.00    0.00       1/4           Test::cons_OwnPointer() [43]
+                0.00    0.00       1/4           Test::lOwned() [48]
+                0.00    0.00       1/4           Test::AOwned() [46]
+                0.00    0.00       1/4           Test::P_Owned() [50]
+[28]     0.0    0.00    0.00       4         ownString::ownString(char*) [28]
+-----------------------------------------------
+                0.00    0.00       1/2           Test::lCopy() [45]
+                0.00    0.00       1/2           Test::ACopy() [44]
+[29]     0.0    0.00    0.00       2         copyString::length() const [29]
+-----------------------------------------------
+                0.00    0.00       1/2           Test::lRCount() [51]
+                0.00    0.00       1/2           Test::ARef_Count() [38]
+[30]     0.0    0.00    0.00       2         refCount::length() const [30]
+-----------------------------------------------
+                0.00    0.00       1/2           Test::lRLink() [49]
+                0.00    0.00       1/2           Test::ARef_Link() [52]
+[31]     0.0    0.00    0.00       2         ref_Link::length() const [31]
+-----------------------------------------------
+                0.00    0.00       1/2           Test::lOwned() [48]
+                0.00    0.00       1/2           Test::AOwned() [46]
+[32]     0.0    0.00    0.00       2         ownString::length() const [32]
+-----------------------------------------------
+                0.00    0.00       1/2           ownString::ownString(ownString const&) [63]
+                0.00    0.00       1/2           ownString::operator=(ownString const&) [64]
+[33]     0.0    0.00    0.00       2         ownString::release() const [33]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [74]
+[34]     0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN10copyStringC2ERKS_ [34]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [35]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN10copyStringC2ERKS_ [34]
+[35]     0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [35]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::P_Copy() [47]
+[36]     0.0    0.00    0.00       1         copyString::print() [36]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::cons_CPointer() [41]
+[37]     0.0    0.00    0.00       1         copyString::copyString(copyString const&) [37]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[38]     0.0    0.00    0.00       1         Test::ARef_Count() [38]
+                0.00    0.00       2/7           refCount::append(char) [8]
+                0.00    0.00       1/5           refCount::refCount() [14]
+                0.00    0.00       1/5           refCount::reserve(int) [13]
+                0.00    0.00       1/2           refCount::length() const [30]
+                0.00    0.00       1/5           refCount::~refCount() [15]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[39]     0.0    0.00    0.00       1         Test::PRef_Count() [39]
+                0.00    0.00       1/5           refCount::refCount() [14]
+                0.00    0.00       1/5           refCount::reserve(int) [13]
+                0.00    0.00       1/7           refCount::append(char) [8]
+                0.00    0.00       1/1           refCount::print() [55]
+                0.00    0.00       1/5           refCount::charAt(int) const [20]
+                0.00    0.00       1/5           refCount::~refCount() [15]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[40]     0.0    0.00    0.00       1         Test::cons_RLink_P() [40]
+                0.00    0.00       4/5           ref_Link::charAt(int) const [21]
+                0.00    0.00       2/5           ref_Link::ref_Link(ref_Link*) [17]
+                0.00    0.00       2/5           ref_Link::reserve(int) [16]
+                0.00    0.00       1/4           ref_Link::append(char) [26]
+                0.00    0.00       1/1           ref_Link::operator=(ref_Link const&) [61]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[41]     0.0    0.00    0.00       1         Test::cons_CPointer() [41]
+                0.00    0.00       4/5           copyString::charAt(int) const [19]
+                0.00    0.00       2/5           copyString::append(char) [10]
+                0.00    0.00       2/5           copyString::~copyString() [11]
+                0.00    0.00       1/4           copyString::copyString(char*) [25]
+                0.00    0.00       1/4           copyString::reserve(int) [24]
+                0.00    0.00       1/1           copyString::copyString(copyString const&) [37]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[42]     0.0    0.00    0.00       1         Test::cons_RCount_P() [42]
+                0.00    0.00       4/5           refCount::charAt(int) const [20]
+                0.00    0.00       2/5           refCount::refCount() [14]
+                0.00    0.00       2/5           refCount::reserve(int) [13]
+                0.00    0.00       2/7           refCount::append(char) [8]
+                0.00    0.00       2/5           refCount::~refCount() [15]
+                0.00    0.00       1/1           refCount::operator=(refCount const&) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[43]     0.0    0.00    0.00       1         Test::cons_OwnPointer() [43]
+                0.00    0.00       4/5           ownString::charAt(int) const [23]
+                0.00    0.00       2/5           ownString::reserve(int) [18]
+                0.00    0.00       1/4           ownString::ownString(char*) [28]
+                0.00    0.00       1/4           ownString::append(char) [27]
+                0.00    0.00       1/1           ownString::ownString(ownString const&) [63]
+                0.00    0.00       1/1           ownString::operator=(ownString const&) [64]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[44]     0.0    0.00    0.00       1         Test::ACopy() [44]
+                0.00    0.00       1/4           copyString::copyString(char*) [25]
+                0.00    0.00       1/4           copyString::reserve(int) [24]
+                0.00    0.00       1/5           copyString::append(char) [10]
+                0.00    0.00       1/2           copyString::length() const [29]
+                0.00    0.00       1/5           copyString::~copyString() [11]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[45]     0.0    0.00    0.00       1         Test::lCopy() [45]
+                0.00    0.00       1/4           copyString::copyString(char*) [25]
+                0.00    0.00       1/4           copyString::reserve(int) [24]
+                0.00    0.00       1/2           copyString::length() const [29]
+                0.00    0.00       1/5           copyString::append(char) [10]
+                0.00    0.00       1/5           copyString::~copyString() [11]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[46]     0.0    0.00    0.00       1         Test::AOwned() [46]
+                0.00    0.00       1/4           ownString::ownString(char*) [28]
+                0.00    0.00       1/5           ownString::reserve(int) [18]
+                0.00    0.00       1/4           ownString::append(char) [27]
+                0.00    0.00       1/2           ownString::length() const [32]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[47]     0.0    0.00    0.00       1         Test::P_Copy() [47]
+                0.00    0.00       1/4           copyString::copyString(char*) [25]
+                0.00    0.00       1/4           copyString::reserve(int) [24]
+                0.00    0.00       1/5           copyString::append(char) [10]
+                0.00    0.00       1/1           copyString::print() [36]
+                0.00    0.00       1/5           copyString::charAt(int) const [19]
+                0.00    0.00       1/5           copyString::~copyString() [11]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[48]     0.0    0.00    0.00       1         Test::lOwned() [48]
+                0.00    0.00       1/4           ownString::ownString(char*) [28]
+                0.00    0.00       1/5           ownString::reserve(int) [18]
+                0.00    0.00       1/4           ownString::append(char) [27]
+                0.00    0.00       1/2           ownString::length() const [32]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[49]     0.0    0.00    0.00       1         Test::lRLink() [49]
+                0.00    0.00       1/5           ref_Link::ref_Link(ref_Link*) [17]
+                0.00    0.00       1/5           ref_Link::reserve(int) [16]
+                0.00    0.00       1/4           ref_Link::append(char) [26]
+                0.00    0.00       1/2           ref_Link::length() const [31]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[50]     0.0    0.00    0.00       1         Test::P_Owned() [50]
+                0.00    0.00       1/4           ownString::ownString(char*) [28]
+                0.00    0.00       1/5           ownString::reserve(int) [18]
+                0.00    0.00       1/4           ownString::append(char) [27]
+                0.00    0.00       1/1           ownString::print() [62]
+                0.00    0.00       1/5           ownString::charAt(int) const [23]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[51]     0.0    0.00    0.00       1         Test::lRCount() [51]
+                0.00    0.00       2/7           refCount::append(char) [8]
+                0.00    0.00       1/5           refCount::refCount() [14]
+                0.00    0.00       1/5           refCount::reserve(int) [13]
+                0.00    0.00       1/2           refCount::length() const [30]
+                0.00    0.00       1/5           refCount::~refCount() [15]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[52]     0.0    0.00    0.00       1         Test::ARef_Link() [52]
+                0.00    0.00       1/5           ref_Link::ref_Link(ref_Link*) [17]
+                0.00    0.00       1/5           ref_Link::reserve(int) [16]
+                0.00    0.00       1/4           ref_Link::append(char) [26]
+                0.00    0.00       1/2           ref_Link::length() const [31]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[53]     0.0    0.00    0.00       1         Test::PRef_Link() [53]
+                0.00    0.00       1/5           ref_Link::ref_Link(ref_Link*) [17]
+                0.00    0.00       1/5           ref_Link::reserve(int) [16]
+                0.00    0.00       1/4           ref_Link::append(char) [26]
+                0.00    0.00       1/1           ref_Link::print() [59]
+                0.00    0.00       1/5           ref_Link::charAt(int) const [21]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[54]     0.0    0.00    0.00       1         Test::Test() [54]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::PRef_Count() [39]
+[55]     0.0    0.00    0.00       1         refCount::print() [55]
+-----------------------------------------------
+                0.00    0.00       1/1           refCount::operator=(refCount const&) [57]
+[56]     0.0    0.00    0.00       1         refCount::_fetching(refCount::_count*) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::cons_RCount_P() [42]
+[57]     0.0    0.00    0.00       1         refCount::operator=(refCount const&) [57]
+                0.00    0.00       1/6           refCount::ref_delete() [9]
+                0.00    0.00       1/1           refCount::_fetching(refCount::_count*) [56]
+-----------------------------------------------
+                0.00    0.00       1/1           ref_Link::operator=(ref_Link const&) [61]
+[58]     0.0    0.00    0.00       1         ref_Link::ref_delete() [58]
+                0.00    0.00       1/5           ref_Link::unique() const [22]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::PRef_Link() [53]
+[59]     0.0    0.00    0.00       1         ref_Link::print() [59]
+-----------------------------------------------
+                0.00    0.00       1/1           ref_Link::operator=(ref_Link const&) [61]
+[60]     0.0    0.00    0.00       1         ref_Link::Fetching(ref_Link const&) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::cons_RLink_P() [40]
+[61]     0.0    0.00    0.00       1         ref_Link::operator=(ref_Link const&) [61]
+                0.00    0.00       1/1           ref_Link::ref_delete() [58]
+                0.00    0.00       1/1           ref_Link::Fetching(ref_Link const&) [60]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::P_Owned() [50]
+[62]     0.0    0.00    0.00       1         ownString::print() [62]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::cons_OwnPointer() [43]
+[63]     0.0    0.00    0.00       1         ownString::ownString(ownString const&) [63]
+                0.00    0.00       1/2           ownString::release() const [33]
+-----------------------------------------------
+                0.00    0.00       1/1           Test::cons_OwnPointer() [43]
+[64]     0.0    0.00    0.00       1         ownString::operator=(ownString const&) [64]
+                0.00    0.00       1/2           ownString::release() const [33]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2015 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [34] _GLOBAL__sub_I__ZN10copyStringC2ERKS_ [49] Test::lRLink() [60] ref_Link::Fetching(ref_Link const&)
+  [35] __static_initialization_and_destruction_0(int, int) [50] Test::P_Owned() [17] ref_Link::ref_Link(ref_Link*)
+  [36] copyString::print()    [51] Test::lRCount()        [61] ref_Link::operator=(ref_Link const&)
+  [10] copyString::append(char) [52] Test::ARef_Link()    [62] ownString::print()
+  [24] copyString::reserve(int) [53] Test::PRef_Link()    [27] ownString::append(char)
+  [37] copyString::copyString(copyString const&) [54] Test::Test() [18] ownString::reserve(int)
+  [25] copyString::copyString(char*) [9] refCount::ref_delete() [28] ownString::ownString(char*)
+  [11] copyString::~copyString() [55] refCount::print()   [63] ownString::ownString(ownString const&)
+  [38] Test::ARef_Count()     [12] refCount::_count::_count(unsigned int) [64] ownString::operator=(ownString const&)
+  [39] Test::PRef_Count()      [8] refCount::append(char) [19] copyString::charAt(int) const
+  [40] Test::cons_RLink_P()   [13] refCount::reserve(int) [29] copyString::length() const
+  [41] Test::cons_CPointer()  [56] refCount::_fetching(refCount::_count*) [20] refCount::charAt(int) const
+  [42] Test::cons_RCount_P()  [14] refCount::refCount()   [30] refCount::length() const
+  [43] Test::cons_OwnPointer() [15] refCount::~refCount() [21] ref_Link::charAt(int) const
+  [44] Test::ACopy()          [57] refCount::operator=(refCount const&) [31] ref_Link::length() const
+  [45] Test::lCopy()          [58] ref_Link::ref_delete() [22] ref_Link::unique() const
+  [46] Test::AOwned()         [59] ref_Link::print()      [23] ownString::charAt(int) const
+  [47] Test::P_Copy()         [26] ref_Link::append(char) [32] ownString::length() const
+  [48] Test::lOwned()         [16] ref_Link::reserve(int) [33] ownString::release() const
